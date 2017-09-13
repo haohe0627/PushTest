@@ -23,10 +23,10 @@ public class MainActivity extends BaseActivity implements MainView{
     @Override
     public void showToken(final String token) {
         runOnUiThread(new Runnable() {
-        @Override
-        public void run() {
-            main_txt.setText(token);
-        }
+            @Override
+            public void run() {
+                main_txt.setText(token);
+            }
         });
     }
 
